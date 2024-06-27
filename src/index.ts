@@ -81,11 +81,10 @@ app.get('/', (c) => {
         }
       </style>
       <div class="container">
-        <h1>Freshias' Restaurant Management API</h1>
-        <p>Welcome!🥳 This API provides programmatic access to functionalities for managing restaurant operations😎</p>
+        <h1>Freshias' Book Repo API</h1>
+        <p>Welcome!🥳 This API provides programmatic access to functionalities for managing Book Repo CRUD operations😎</p>
         <ul>
           <li>Automate tasks and streamline workflows.</li>
-          <li>Develop custom applications to enhance your restaurant operations.</li>
         </ul>
       </div>
     `
