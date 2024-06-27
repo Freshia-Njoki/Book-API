@@ -1,0 +1,1 @@
+ALTER TABLE "orders" ALTER COLUMN "estimated_delivery_time" DROP NOT NULL;

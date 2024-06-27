@@ -1,0 +1,33 @@
+
+GET http://localhost:8000/api/ok/
+###
+GET http://localhost:8000/api/books?limit=4
+
+###
+
+GET http://localhost:8000/api/books
+
+###
+GET http://localhost:8000/api/books/3
+###
+
+POST http://localhost:8000/api/books
+Content-Type: application/json
+
+{
+   
+    "title": "May I",
+    "author": "Grace",
+    "publicationYear": 2002
+}
+
+###
+PUT http://localhost:8000/api/books/3
+Content-Type: application/json
+
+{
+    "author": "Kevin"
+}
+###
+DELETE http://localhost:8000/api/books/2
+
